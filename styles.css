@@ -195,6 +195,23 @@ header .login-icon img {
     color: green;
 }
 
+/* Style for the special link */
+.special-link {
+    color: #ffcc00; /* Original color */
+    text-decoration: none;
+}
+
+.special-link:hover {
+    background-color: #ffffff;
+    text-decoration: underline;
+    transition: 0.2s ease-in;
+    
+}
+
+.special-link:visited {
+    color: #ffcc00; /* Keep same as original so it doesn’t change */
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
     nav ul {
