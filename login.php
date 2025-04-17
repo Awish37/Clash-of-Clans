@@ -88,7 +88,7 @@ unset($_SESSION['error']);
                     ?>
                 </div>
             </form>
-            <p>Still not registered? <a href="register.php">Click here</a> to register</p>
+            <p>Still not registered? <a href="register.php" class="special-link">Click here</a> to register</p>
         </div>
     </main>
     <footer>
