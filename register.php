@@ -97,7 +97,7 @@ unset($_SESSION['success']);
                     ?>
                 </div>
             </form>
-            <p>Already registered? <a href="login.php">Click here</a> to login</p>
+            <p>Already registered? <a href="login.php" class="special-link">Click here</a> to login</p>
         </div>
     </main>
     <footer>
